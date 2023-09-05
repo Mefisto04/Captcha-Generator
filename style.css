@@ -33,13 +33,17 @@
     margin: 1em 0;
 
     @media (max-width: 500px) {
-      margin: .6em -1rem;
+      margin: 1.5em 0rem;
     }
   }
   canvas {
     border: 0px solid #000000;
     border-radius: 0.4em;
     box-shadow: 0 .5em 1em rgba(0, 0, 0, 0.45);
+
+    @media (max-width: 500px) {
+      width: 10rem;
+    }
   }
   button#reload-button {
     font-size: 26px;
